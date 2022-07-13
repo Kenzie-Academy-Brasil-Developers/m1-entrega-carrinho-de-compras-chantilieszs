@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Inter:wght@400;600;700&family=Poppins&family=Quicksand:wght@500;600;700&display=swap');
+header { 
+    max-width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+mian{
+    width: 100%;
+    justify-content: center;
+}
+header h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    
+}
+ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0
+}
+ul li {
+    align-items: center;
+    display: flex;
+    width: 550px;
+    height: 50px;
+    justify-content: space-between;
+    background-color: rgba(204, 204, 204, 0.141);
+    border-radius: 5px;
+    margin: 8px 0;
+}
+.span1 {
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    
+}
+.span2 {
+    margin-right: 10px;
+    font-weight: 500;
+}
+#item {
+    background-color: rgba(0, 0, 0, 0.856);
+    color: white;
+}
+#Total {
+    height: 70px;
+    background-color: rgba(204, 204, 204, 0.53);
+}
+
+#spanTotal {
+    font-size: 23px;
+}
+#section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#btn {
+    display: flex;
+    width: 550px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 228, 167);
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
